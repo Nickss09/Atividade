@@ -1,34 +1,36 @@
-
-.perfil{
+.perfil {
   display: flex;
   align-items: center;
 }
-.foto{
+
+.foto {
   width: 65px;
   height: 40px;
 }
-.nome{
+
+.nome {
   padding-left: 10px;
 }
-.descricao{
-  padding-right: 10px;
-  padding-left: 10px;
+
+.descricao {
+  padding-right: 30px;
+  padding-left: 30px;
   padding-top: 10px;
 }
-.caixa{
-  padding-bottom: 10px;
-  padding-top: 10px;
+
+.caixa {
+  margin-top: 20px;
   width: 400px;
   height: 300px;
-  background-color: white;
   box-shadow: 5px 10px 10px gray;
   border-radius: 20px;
   flex-direction: column;
 }
-.data-hora{
+
+.data-hora {
   display: flex;
   align-items: center;
   height: 50px;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-left: 10px;
 }
